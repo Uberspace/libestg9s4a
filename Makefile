@@ -6,7 +6,7 @@ lint:
 
 .PHONY: fixlint
 fixlint:
-	isort --recursive libestg3b test
+	isort --recursive libestg9s4a test
 
 .PHONY: test
 test:
