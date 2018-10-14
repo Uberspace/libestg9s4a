@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.6"
+  # https://github.com/travis-ci/travis-ci/issues/9815
+  #- "3.7-dev"
+
+install:
+  - pip install -e ".[dev]"
+
+script:
+  - make lint
+  - make test
+  - codecov
