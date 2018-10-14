@@ -23,7 +23,7 @@ setup(
         'libestg9s4a',
     ],
     install_requires=[
-        'dataclasses',
+        'python-dateutil',
     ],
     extras_require={
         'dev': [
